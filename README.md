@@ -15,7 +15,7 @@ The footer is missing in both __Home__ and __About__ pages. You'll have to creat
 
 The text does not really matters; choose one of your choice.
 
-## 2. New form page
+## 3. New form page
 
 Create a new page using the template syntax. We need a form to send a new mascot to our server; so it is displayed in the Home page. Write your file in views/pages/form.ejs. This page must be rendered when the user navigates to **/add-mascot**. Add a new navigation link.
 
@@ -28,7 +28,7 @@ We need this form to:
 
 Please notice that this form is created with Bootstrap 5; loaded from the CDN. Take advantage of [this](https://getbootstrap.com/docs/5.0/forms/overview/).
 
-## 3. Add the POST /add-mascot endpoint
+## 4. Add the POST /add-mascot endpoint
 
 We now need to creater a new endpoint for the POST performed by the form.
 
