@@ -7,7 +7,7 @@ We are going to introduce some new endpoints and functionalities in this webpage
 Notice that the year in which the mascot was born is missing.
 Fix the **index.ejs** to also include this information. 
 
-Try to understand how EJS iterates the array and gathers the information for each element.
+Try to understand how EJS iterates the array and gathers the information from each element.
 
 ## 2. Footer missing
 
@@ -23,14 +23,14 @@ We need this form to:
 
 1. Get from the user the name, organization and year of the new mascot.
 2. Perform some basic validation in the form
-3. The form's action attribute must set to the endpont **/add-mascot**
-4. The form's method attrbiute must set to **POST**
+3. The form's action attribute must set to the endpoint **/add-mascot**
+4. The form's method attribute must set to **POST**
 
 Please notice that this form is created with Bootstrap 5; loaded from the CDN. Take advantage of [this](https://getbootstrap.com/docs/5.0/forms/overview/).
 
 ## 4. Add the POST /add-mascot endpoint
 
-We now need to creater a new endpoint for the POST performed by the form.
+We now need to create a new endpoint for the POST performed by the form.
 
 1. Add a new POST endpoint to '/add-mascot'
 2. The endpoint must receive the fields from the form. Remember the field's info will be available in **req.body**
