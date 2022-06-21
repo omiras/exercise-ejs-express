@@ -1,8 +1,8 @@
 // OUR "BBDD" 
 var mascots = [
-    { name: 'Sammy', organization: "DigitalOcean", birth_year: 2012},
-    { name: 'Tux', organization: "Linux", birth_year: 1996},
-    { name: 'Moby Dock', organization: "Docker", birth_year: 2013}
+    { name: 'Sammy', organization: "DigitalOcean", birth_year: 2012 },
+    { name: 'Tux', organization: "Linux", birth_year: 1996 },
+    { name: 'Moby Dock', organization: "Docker", birth_year: 2013 }
 ];
 
 // load the things we need
@@ -15,7 +15,7 @@ app.set('view engine', 'ejs');
 // use res.render to load up an ejs view file
 
 // index page 
-app.get('/', function(req, res) {
+app.get('/', function (req, res) {
 
     var tagline = "No programming concept is complete without a cute animal mascot.";
 
@@ -26,7 +26,7 @@ app.get('/', function(req, res) {
 });
 
 // about page
-app.get('/about', function(req, res) {
+app.get('/about', function (req, res) {
     res.render('pages/about');
 });
 
